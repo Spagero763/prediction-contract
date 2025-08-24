@@ -1,0 +1,118 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60556032600b8282823980515f1a607314602657634e487b7160e01b5f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f80fdfea264697066735822122019cbaa3806a3e0c72c8caff09ace4c9f318019805a3db5dd872c37dff614120e64736f6c63430008180033",
+			"opcodes": "PUSH1 0x55 PUSH1 0x32 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH0 BYTE PUSH1 0x73 EQ PUSH1 0x26 JUMPI PUSH4 0x4E487B71 PUSH1 0xE0 SHL PUSH0 MSTORE PUSH0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST ADDRESS PUSH0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 NOT 0xCB 0xAA CODESIZE MOD LOG3 0xE0 0xC7 0x2C DUP13 0xAF CREATE SWAP11 0xCE 0x4C SWAP16 BALANCE DUP1 NOT DUP1 GAS RETURNDATASIZE 0xB5 0xDD DUP8 0x2C CALLDATACOPY 0xDF 0xF6 EQ SLT 0xE PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+			"sourceMap": "88906:18982:0:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;88906:18982:0;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "730000000000000000000000000000000000000000301460806040525f80fdfea264697066735822122019cbaa3806a3e0c72c8caff09ace4c9f318019805a3db5dd872c37dff614120e64736f6c63430008180033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 NOT 0xCB 0xAA CODESIZE MOD LOG3 0xE0 0xC7 0x2C DUP13 0xAF CREATE SWAP11 0xCE 0x4C SWAP16 BALANCE DUP1 NOT DUP1 GAS RETURNDATASIZE 0xB5 0xDD DUP8 0x2C CALLDATACOPY 0xDF 0xF6 EQ SLT 0xE PUSH5 0x736F6C6343 STOP ADDMOD XOR STOP CALLER ",
+			"sourceMap": "88906:18982:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17000",
+				"executionCost": "96",
+				"totalCost": "17096"
+			},
+			"internal": {
+				"_tryParseChr(bytes1)": "infinite",
+				"_tryParseHexUintUncheckedBounds(string memory,uint256,uint256)": "infinite",
+				"_tryParseIntUncheckedBounds(string memory,uint256,uint256)": "infinite",
+				"_tryParseUintUncheckedBounds(string memory,uint256,uint256)": "infinite",
+				"_unsafeReadBytesOffset(bytes memory,uint256)": "infinite",
+				"equal(string memory,string memory)": "infinite",
+				"escapeJSON(string memory)": "infinite",
+				"parseAddress(string memory)": "infinite",
+				"parseAddress(string memory,uint256,uint256)": "infinite",
+				"parseHexUint(string memory)": "infinite",
+				"parseHexUint(string memory,uint256,uint256)": "infinite",
+				"parseInt(string memory)": "infinite",
+				"parseInt(string memory,uint256,uint256)": "infinite",
+				"parseUint(string memory)": "infinite",
+				"parseUint(string memory,uint256,uint256)": "infinite",
+				"toChecksumHexString(address)": "infinite",
+				"toHexString(address)": "infinite",
+				"toHexString(uint256)": "infinite",
+				"toHexString(uint256,uint256)": "infinite",
+				"toString(uint256)": "infinite",
+				"toStringSigned(int256)": "infinite",
+				"tryParseAddress(string memory)": "infinite",
+				"tryParseAddress(string memory,uint256,uint256)": "infinite",
+				"tryParseHexUint(string memory)": "infinite",
+				"tryParseHexUint(string memory,uint256,uint256)": "infinite",
+				"tryParseInt(string memory)": "infinite",
+				"tryParseInt(string memory,uint256,uint256)": "infinite",
+				"tryParseUint(string memory)": "infinite",
+				"tryParseUint(string memory,uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "value",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "length",
+					"type": "uint256"
+				}
+			],
+			"name": "StringsInsufficientHexLength",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "StringsInvalidAddressFormat",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "StringsInvalidChar",
+			"type": "error"
+		}
+	]
+}
