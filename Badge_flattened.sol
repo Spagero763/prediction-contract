@@ -39,10 +39,7 @@ interface IERC721 is IERC165 {
     /**
      * @dev Safely transfers `tokenId` token from `from` to `to`.
      *
-     * Requirements:
-     *
-     * - `from` cannot be the zero address.
-     * - `to` cannot be the zero address.
+  
      * - `tokenId` token must exist and be owned by `from`.
    
      * Emits a {Transfer} event.
