@@ -89,10 +89,7 @@ pragma solidity >=0.5.0;
  */
 interface IERC721Receiver {
     /**
-     * @dev Whenever an {IERC721} `tokenId` token is transferred to this contract via {IERC721-safeTransferFrom}
-     * by `operator` from `from`, this function is called.
-     *
-     * It must return its Solidity selector to confirm the token transfer.
+    
      * If any other value is returned or the interface is not implemented by the recipient, the transfer will be
     
     function onERC721Received(
