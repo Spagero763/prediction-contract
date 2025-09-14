@@ -68,8 +68,6 @@ interface IERC721Metadata is IERC721 {
   
     function name() external view returns (string memory);
 
-    /**
-     * @dev Returns the token collection symbol.
      */
     function symbol() external view returns (string memory);
 
