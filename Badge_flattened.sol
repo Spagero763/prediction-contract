@@ -37,10 +37,7 @@ interface IERC721 is IERC165 {
     function ownerOf(uint256 tokenId) external view returns (address owner);
 
     /**
-     * @dev Safely transfers `tokenId` token from `from` to `to`.
-     *
-  
-     * - `tokenId` token must exist and be owned by `from`.
+     
    
      * Emits a {Transfer} event.
      */
