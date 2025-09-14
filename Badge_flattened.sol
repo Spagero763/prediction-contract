@@ -5,9 +5,6 @@
 // OpenZeppelin Contracts (last updated v5.4.0) (utils/introspection/IERC165.sol)
 
 pragma solidity >=0.4.16;
-
-/**
- ERC-165 standard, as defined in the
  
 interface IERC165 {
     /**
