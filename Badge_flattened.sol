@@ -47,12 +47,7 @@ interface IERC721 is IERC165 {
     function safeTransferFrom(address from, address to, uint256 tokenId) external;
 
     /**
-     * @dev Transfers `tokenId` token from `from` to `to`.
-     *
-     * WARNING: Note that the caller is responsible to confirm that the recipient is capable of receiving ERC-721
     
-     * Requirements:
-     *
     * - `from` cannot be the zero address.
    
      * Emits a {Transfer} event.
