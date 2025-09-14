@@ -21,9 +21,7 @@ interface IERC165 {
 pragma solidity >=0.6.2;
 
 
-/**
- * @dev Required interface of an ERC-721 compliant contract.
- */
+
 interface IERC721 is IERC165 {
  
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
