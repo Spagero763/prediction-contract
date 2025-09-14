@@ -32,12 +32,7 @@ interface IERC721 is IERC165 {
      */
     function balanceOf(address owner) external view returns (uint256 balance);
 
-    /**
-     * @dev Returns the owner of the `tokenId` token.
-     *
-     * Requirements:
-     *
-     * - `tokenId` must exist.
+ 
      */
     function ownerOf(uint256 tokenId) external view returns (address owner);
 
