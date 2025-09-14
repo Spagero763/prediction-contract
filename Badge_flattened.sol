@@ -7,7 +7,7 @@
 pragma solidity >=0.4.16;
 
 /**
- * @dev Interface of the ERC-165 standard, as defined in the
+ * @dev Interfac ERC-165 standard, as defined in the
  
 interface IERC165 {
     /**
