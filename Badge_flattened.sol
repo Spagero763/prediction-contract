@@ -98,9 +98,7 @@ interface IERC721Receiver {
 pragma solidity >=0.8.4;
 
 /**
- * @dev Standard ERC-20 Errors
- * Interface of the https://eips.ethereum.org/EIPS/eip-6093[ERC-6093] custom errors for ERC-20 tokens.
- */
+
 interface IERC20Errors {
     /**
      * @dev Indicates an error related to the current `balance` of a `sender`. Used in transfers.
