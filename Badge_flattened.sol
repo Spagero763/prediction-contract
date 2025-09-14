@@ -28,11 +28,7 @@ interface IERC721 is IERC165 {
 
     /**
      * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.
-     */
-    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
-
-    /**
-     * @dev Returns the number of tokens in ``owner``'s account.
+'s account.
      */
     function balanceOf(address owner) external view returns (uint256 balance);
 
