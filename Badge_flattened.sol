@@ -42,9 +42,7 @@ interface IERC721 is IERC165 {
 
     function setApprovalForAll(address operator, bool approved) external;
 
-    /**
-     * @dev Returns the account approved for `tokenId` token.
-     *
+    
   
     function getApproved(uint256 tokenId) external view returns (address operator);
 
