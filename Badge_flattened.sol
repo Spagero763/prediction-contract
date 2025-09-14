@@ -88,9 +88,7 @@ interface IERC721 is IERC165 {
      * @dev Transfers `tokenId` token from `from` to `to`.
      *
      * WARNING: Note that the caller is responsible to confirm that the recipient is capable of receiving ERC-721
-     * or else they may be permanently lost. Usage of {safeTransferFrom} prevents loss, though the caller must
-     * understand this adds an external call which potentially creates a reentrancy vulnerability.
-     *
+    
      * Requirements:
      *
      * - `from` cannot be the zero address.
