@@ -10,8 +10,7 @@ pragma solidity >=0.4.16;
  * @dev Interface of the ERC-165 standard, as defined in the
  * https://eips.ethereum.org/EIPS/eip-165[ERC].
  *
- * Implementers can declare support of contract interfaces, which can then be
- 
+ * Implementers can
  
 interface IERC165 {
     /**
