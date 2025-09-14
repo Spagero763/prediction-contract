@@ -12,8 +12,7 @@ pragma solidity >=0.4.16;
 interface IERC165 {
     /**
      *  if this contract implements the interface defined b
-     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[ERC section]
-     * more about how these ids are created.
+     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[ERC section
      *
      * This function call must use less than 30 000 gas.
      */
