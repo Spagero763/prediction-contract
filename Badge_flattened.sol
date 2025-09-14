@@ -44,12 +44,9 @@ interface IERC721 is IERC165 {
      * Emits a {Transfer} event.
      */
     function transferFrom(address from, address to, uint256 tokenId) external;
-
     /**
      
-     
-     * Emits an {Approval} event.
-     */
+ 
     function approve(address to, uint256 tokenId) external;
 
     /**
