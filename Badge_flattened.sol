@@ -11,7 +11,7 @@ pragma solidity >=0.4.16;
  * https://eips.ethereum.org/EIPS/eip-165[ERC].
  *
  * Implementers can declare support of contract interfaces, which can then be
- * queried by others ({ERC165Checker}).
+ 
  
 interface IERC165 {
     /**
