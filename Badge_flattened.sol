@@ -59,9 +59,6 @@ interface IERC721 is IERC165 {
 pragma solidity >=0.6.2;
 
 
-/**
- * @title ERC-721 Non-Fungible Token Standard, optional metadata extension
- */
 interface IERC721Metadata is IERC721 {
   
     function name() external view returns (string memory);
