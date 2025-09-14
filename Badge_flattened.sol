@@ -26,10 +26,6 @@ interface IERC721 is IERC165 {
  
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
 
-    /**
-     * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.
-'s account.
-     */
     function balanceOf(address owner) external view returns (uint256 balance);
 
  
