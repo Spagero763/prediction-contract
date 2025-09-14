@@ -98,9 +98,7 @@ pragma solidity >=0.6.2;
  * @dev See https://eips.ethereum.org/EIPS/eip-721
  */
 interface IERC721Metadata is IERC721 {
-    /**
-     * @dev Returns the token collection name.
-     */
+  
     function name() external view returns (string memory);
 
     /**
