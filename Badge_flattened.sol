@@ -82,11 +82,7 @@ interface IERC721Metadata is IERC721 {
 
 pragma solidity >=0.5.0;
 
-/**
- * @title ERC-721 token receiver interface
- * @dev Interface for any contract that wants to support safeTransfers
- * from ERC-721 asset contracts.
- */
+
 interface IERC721Receiver {
     /**
     
