@@ -77,10 +77,7 @@ interface IERC721 is IERC165 {
     function getApproved(uint256 tokenId) external view returns (address operator);
 
     /**
-     * @dev Returns if the `operator` is allowed to manage all of the assets of `owner`.
-     *
-     * See {setApprovalForAll}
-     */
+     
     function isApprovedForAll(address owner, address operator) external view returns (bool);
 }
 
