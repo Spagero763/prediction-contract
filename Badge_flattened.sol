@@ -44,10 +44,6 @@ interface IERC721 is IERC165 {
  
     function approve(address to, uint256 tokenId) external;
 
-    /**
-   
-     *
-     */
     function setApprovalForAll(address operator, bool approved) external;
 
     /**
