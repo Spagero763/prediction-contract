@@ -76,11 +76,6 @@ interface IERC721 is IERC165 {
      * @dev Approve or remove `operator` as an operator for the caller.
      * Operators can call {transferFrom} or {safeTransferFrom} for any token owned by the caller.
      *
-     * Requirements:
-     *
-     * - The `operator` cannot be the address zero.
-     *
-     * Emits an {ApprovalForAll} event.
      */
     function setApprovalForAll(address operator, bool approved) external;
 
