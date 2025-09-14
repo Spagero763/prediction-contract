@@ -37,12 +37,7 @@ interface IERC721 is IERC165 {
      */
     function safeTransferFrom(address from, address to, uint256 tokenId) external;
 
-    /**
     
-    * - `from` cannot be the zero address.
-   
- 
-     */
     function transferFrom(address from, address to, uint256 tokenId) external;
     /**
      
