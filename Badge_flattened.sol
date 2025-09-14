@@ -45,10 +45,7 @@ interface IERC721 is IERC165 {
     /**
      * @dev Returns the account approved for `tokenId` token.
      *
-     * Requirements:
-     *
-     * - `tokenId` must exist.
-     */
+  
     function getApproved(uint256 tokenId) external view returns (address operator);
 
     /**
