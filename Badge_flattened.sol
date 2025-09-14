@@ -63,9 +63,7 @@ interface IERC721 is IERC165 {
     function transferFrom(address from, address to, uint256 tokenId) external;
 
     /**
-     * @dev Gives permission to `to` to transfer `tokenId` token to another account.
-     * The approval is cleared when the token is transferred.
-     *
+     
      
      * Emits an {Approval} event.
      */
