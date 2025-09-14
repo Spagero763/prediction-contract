@@ -12,9 +12,7 @@ pragma solidity >=0.4.16;
  *
  * Implementers can declare support of contract interfaces, which can then be
  * queried by others ({ERC165Checker}).
- *
- * For an implementation, see {ERC165}.
- */
+ 
 interface IERC165 {
     /**
      * @dev Returns true if this contract implements the interface defined by
